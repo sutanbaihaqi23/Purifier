@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Purifier</string>
+
+    <string name="Desc_good">Udara di luar lagi bagus-bagusnya nih!
+        Yuk, kita pergi keluar dan nikmati hari yang cerah!</string>
+    <string name="Desc_mid">Udara cukup baik hari ini, tapi bagi kamu yang sensitif terhadap polusi, sebaiknya tetap waspada dan jaga kesehatan</string>
+    <string name="Desc_not_save">Udara di luar mulai tidak sehat untuk kelompok sensitif. Bagi yang punya masalah paru-paru, anak-anak, atau lansia, disarankan mengurangi aktivitas di luar ruangan</string>
+    <string name="Desc_unhealthy">Kualitas udara saat ini kurang baik untuk semua orang. Usahakan mengurangi aktivitas di luar ruangan, dan jangan lupa pakai masker jika harus keluar.</string>
+    <string name="Desc_very_unhealty">Udara sangat tidak sehat! Lebih baik hindari aktivitas di luar ruangan. Gunakan masker yang sesuai dan tutup jendela untuk melindungi diri dari paparan polusi.</string>
+    <string name="Desc_hazardous">Kondisi udara sangat berbahaya! Sebaiknya tetap di dalam ruangan dan hindari semua aktivitas di luar. Pastikan lingkungan di dalam rumah bersih dan gunakan alat penyaring udara jika perlu.</string>
+
+    <string name="Good_label">Good</string>
+    <string name="Mid_label">Sedang</string>
+    <string name="NotSave_label">Tidak sehat untuk kelompok sensitive</string>
+    <string name="UnHealthy_label">Unhealthy</string>
+    <string name="Very_unHealthy_label">Very Unhealthy</string>
+    <string name="Hazardous_label">Hazardous</string>
+
+    
+</resources>
