@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_70sdp"
+    android:layout_height="@dimen/_115sdp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:background="@drawable/item_bg_selector">
+
+    <LinearLayout
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/llForecastItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        
+        <TextView
+            android:id="@+id/tvTemperatureRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background"
+            android:text="0 - 50"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_gravity="center"/>
+        
+        <ImageView
+            android:id="@+id/ivWeatherIcon"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:background="@drawable/sun"
+            android:backgroundTint="@color/orange_end"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"/>
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_9ssp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_medium"
+            android:text="31°"
+            android:layout_marginTop="@dimen/_2sdp"/>
+
+        <ImageView
+            android:id="@+id/ivWindIcon"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/wind"
+            android:backgroundTint="@color/yellow_start"/>
+
+        <TextView
+            android:id="@+id/tvWindSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_8ssp"
+            android:text="1.2 km/h"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textSize="@dimen/_8ssp"
+            android:text="12.00"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

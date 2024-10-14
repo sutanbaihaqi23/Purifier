@@ -92,7 +92,7 @@
             android:id="@+id/desc_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/desc_good"
+            android:text="@string/Desc_good"
             android:textAlignment="center"
             android:fontFamily="@font/poppins_medium"
             android:textColor="@color/white"
@@ -175,10 +175,41 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/content_layout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hari Ini"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                />
+            <TextView
+                android:id="@+id/title_yesterday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 Hari yang Lalu > "
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvForecast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/item_forecast"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_below="@id/title_day"/>
+        </RelativeLayout>
     </ScrollView>
 </LinearLayout>

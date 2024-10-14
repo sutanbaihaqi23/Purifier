@@ -14,4 +14,6 @@
     <color name="purple_end">#791E94</color>
     <color name="dust_start">#937B8B</color>
     <color name="dust_end">#655560</color>
+
+    <color name="light_green">#A5D6A7</color>
 </resources>
