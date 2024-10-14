@@ -210,6 +210,25 @@
                 android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 android:layout_below="@id/title_day"/>
+
+            <TextView
+                android:id="@+id/title_polutan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polutan"
+                android:layout_below="@id/rvForecast"
+                android:textSize="@dimen/_14ssp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/rvPolutan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_polutan"
+                />
         </RelativeLayout>
     </ScrollView>
 </LinearLayout>
