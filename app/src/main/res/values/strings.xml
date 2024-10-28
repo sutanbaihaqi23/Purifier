@@ -16,5 +16,9 @@
     <string name="Very_unHealthy_label">Very Unhealthy</string>
     <string name="Hazardous_label">Hazardous</string>
 
+    //activity recommendation
+    <string name="activity1">Nikmati aktivitas luar ruangan seperti berjalan-jalan, berolahraga, atau bersantai di luar.</string>
+    <string name="title_activity_air_quality_dialog">AirQualityDialog</string>
+
 
 </resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_activity_recommendation"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_margin="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/green_gradient">
+
+            <ImageView
+                android:id="@+id/img_activity_recommendation"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@drawable/relaxingwalk" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cv_activity_recommendation"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/black"
+        android:text="Bagus"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp" />
+    <TextView
+        android:id="@+id/tv_description_info"
+        android:layout_below="@id/tv_title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cv_activity_recommendation"
+        android:textSize="@dimen/_9ssp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/black"
+        android:text="@string/activity1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_5sdp"/>
+
+
+
+
+
+</RelativeLayout>

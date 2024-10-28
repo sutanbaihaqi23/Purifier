@@ -6,7 +6,8 @@
     android:layout_height="@dimen/_115sdp"
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
-    android:background="@drawable/item_bg_selector">
+    android:background="@drawable/item_bg_selector"
+    android:layout_margin="@dimen/_5sdp">
 
     <LinearLayout
         android:layout_margin="@dimen/_5sdp"
